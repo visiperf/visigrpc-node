@@ -1,0 +1,7 @@
+{
+  "name": "visigrpc",
+  "version": "1.0.0",
+  "description": "Node.JS gRPC helpers, middlewares ...",
+  "author": "Visiperf SAS",
+  "private": false
+}
