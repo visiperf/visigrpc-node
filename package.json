@@ -3,5 +3,8 @@
   "version": "1.0.0",
   "description": "Node.JS gRPC helpers, middlewares ...",
   "author": "Visiperf SAS",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "@sentry/node": "^5.15.4"
+  }
 }
