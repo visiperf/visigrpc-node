@@ -1,8 +1,15 @@
 {
-  "name": "visigrpc",
-  "version": "1.0.0",
+  "name": "@visiperf/visigrpc",
+  "version": "1.0.1",
   "description": "Node.JS gRPC helpers, middlewares ...",
-  "keywords": ["grpc", "rpc", "proto", "protobuf", "node", "status"],
+  "keywords": [
+    "grpc",
+    "rpc",
+    "proto",
+    "protobuf",
+    "node",
+    "status"
+  ],
   "homepage": "https://github.com/visiperf/visigrpc-node#readme",
   "repository": {
     "type": "git",

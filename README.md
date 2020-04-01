@@ -1,6 +1,6 @@
 # gRPC helpers, middlewares ... for Node.JS
 
-Package `visigrpc` provide some functions to help you making a gRPC server. Errors logged on [Sentry](https://sentry.io), HTTP status to gRPC code, ... Everything is made to assist you :)
+Package `@visiperf/visigrpc` provide some functions to help you making a gRPC server. Errors logged on [Sentry](https://sentry.io), HTTP status to gRPC code, ... Everything is made to assist you :)
 
 Table of contents
 =================
@@ -17,7 +17,7 @@ Table of contents
 Use `npm` to install this package.
 
 ```shell
-npm install --save visigrpc
+npm install --save @visiperf/visigrpc
 ```
 
 ## Usage
@@ -31,7 +31,7 @@ The `error(code, msg)` function is used to return a gRPC error and log it into [
 ```javascript
 const grpc = require('grpc');
 const sentry = require('@sentry/node');
-const status = require('visigrpc/status');
+const status = require('@visiperf/visigrpc/status');
 
 sentry.init({ ... });
 
@@ -53,7 +53,7 @@ function sayHello(call, callback) {
 If you make an HTTP request, you can use the `grpcCodeFromHttpStatus(status)` func to convert HTTP status code in response to gRPC code.
 
 ```javascript
-const status = require('visigrpc/status');
+const status = require('@visiperf/visigrpc/status');
 
 let code = status.grpcCodeFromHttpStatus(403); // http status -> 403 (Forbidden)
 
