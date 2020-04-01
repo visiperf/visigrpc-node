@@ -46,7 +46,7 @@ function sayHello(call, callback) {
 }
 ```
 
-##### IMPORTANT : Only `Unknown`, `Internal` and `DataLoss` errors will be reported in Sentry !
+##### IMPORTANT : Only `UNKNOWN`, `INTERNAL` and `DATA_LOSS` errors will be reported in Sentry !
 
 #### gRPC code from HTTP status
 
